@@ -1,0 +1,86 @@
+* {
+    font-family: Ruda;
+    font-style: normal;
+    font-weight: normal;
+}
+
+div {
+    display: flex;
+}
+
+h2 {
+    color: white;
+
+}
+
+p {
+    color: white;
+}
+
+body {
+    background-color: #332A2E;
+}
+
+.card1 {
+    float: left;
+}
+.card2 {
+    float: right;
+}
+
+ /* Style the navbar */
+ nav {
+    overflow: hidden;
+    background-color: black;
+  }
+  
+  .ctaBtn {
+    position: absolute;
+    left:    0;
+    bottom:   0;
+    width: 120px;
+    background-color: rgba(243, 28, 132, 0.1);
+  }
+  /* Navbar links */
+a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  .header-content {
+      position: relative;
+      display: flex;
+      justify-content: flex-start;
+  }
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+  .headerIMG {
+      width: 50%;
+  }
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  } 
+
+  footer {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    background-color: black;
+    height: 2.5rem;            /* Footer height */
+  }
