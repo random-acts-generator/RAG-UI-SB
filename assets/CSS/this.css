@@ -11,7 +11,7 @@ div {
 
 h2 {
     color: white;
-
+    max-width: 500px;
 }
 
 p {
@@ -61,7 +61,7 @@ a {
     text-decoration: none;
     font-size: 18px;
   }
-  #headerQuote {
+  .headerQuote {
     height: 50%;
   }
   .header-content {
@@ -138,5 +138,5 @@ a {
   }
 
   @media (max-width: 500px) {
-    
+
   }
