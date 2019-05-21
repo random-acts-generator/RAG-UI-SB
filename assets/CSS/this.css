@@ -1,6 +1,6 @@
 /* Global */
 * {
-    font-family: Ruda;
+    font-family: "Ruda", serif;
     font-style: normal;
     font-weight: normal;
     
@@ -27,10 +27,6 @@ a {
 }
 
 /* Header */
-h2 {
-  color: white;
-  max-width: 500px;
-}
 .header-content {  
   display: flex;
   justify-content: flex-start;
@@ -43,18 +39,18 @@ flex-direction: column;
 width: 50%;
 }
 .headerImgDiv {
-/* max-width: 500px; */
 width: 50%;
 text-align: right;
 }
-.headerQuote {    
+.headerQuote {   
+  font-family: 'Ruda';
   vertical-align: top;
+  padding-bottom: 10px;
   }
 .headerIMG {
   border-radius: 80%;
   max-width: 500px;
-  max-height: 300px;
-  display: block;    
+  max-height: 300px;  
 }
 .ctaBtn {    
   color: white;
@@ -85,12 +81,20 @@ body {
   font-size: 30px;
 }
 .card1-p {
-  width: 350px;
+  width: 400px;
+  font-size: 20px;
 }
 .imageSection {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  text-align: right;
+}
+h2 {
+  color: white;
+  display: block;
+  margin: auto;
+  /* max-width: 500px; */
 }
 .listDiv {
   display: inline-block;
@@ -113,7 +117,7 @@ ul {
   border-radius: 75%;
   max-width: 500px;
   max-height: 300px;
-
+  right: 0px;
 }  
 .bottomSection {
   display: flex;
