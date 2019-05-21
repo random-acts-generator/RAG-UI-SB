@@ -20,6 +20,7 @@ p {
 
 body {
     background-color: #332A2E;
+    font-family: Ruda;
     max-width: 960px;
 }
 
@@ -34,12 +35,12 @@ body {
  nav {    
     /* overflow: hidden; */
     background-color: black;
-    text-align: center;    
+    /* text-align: center; */
+    justify-content: space-between;    
   }
   
   .navIMG {
-    margin-left: 0px;
-    margin-right: 600px;
+    margin-left: 0px;    
     
   }
   .ctaBtn {
@@ -55,8 +56,9 @@ body {
   /* Navbar links */
 a {
     /*display: block; */
-    color: white;
-    text-align: center;
+    margin-top: 50px;
+    float: right;
+    color: white;    
     padding: 14px;
     text-decoration: none;
     font-size: 18px;
@@ -112,11 +114,6 @@ a {
     width: 100%;
   }
   
-  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-  .sticky + .content {
-    padding-top: 60px;
-  } 
-
 .bottomSection {
   display: flex;
 }
@@ -136,6 +133,39 @@ a {
   footer p {
     top: 15px;
   }
+
+  /* About.html*/
+  h1 {
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+  }
+  .about-P {
+    font-size: 25px;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 10px;
+    }
+.aboutMain-content {
+  display: inline-block;
+  width: 100%;
+  align-content: center;
+}
+
+.aboutIMG {
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+}
+
+.aboutImage-div {
+  display: inline-block;
+  width: 100%;
+  align-content: center;
+  padding-bottom: 15px;
+}
+
 
   @media (max-width: 500px) {
 
