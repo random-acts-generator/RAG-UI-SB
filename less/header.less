@@ -1,0 +1,57 @@
+.header-content {  
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;    
+  }
+.headerQuoteDiv {
+display: flex;
+flex-direction: column;
+width: 50%;
+}
+.headerImgDiv {
+width: 50%;
+text-align: right;
+}
+.headerQuote {   
+  font-family: 'Ruda';
+  vertical-align: top;
+  padding-bottom: 10px;
+  }
+.headerIMG {
+  border-radius: 80%;
+  max-width: 500px;
+  max-height: 300px; 
+}
+  
+.ctaBtn {    
+  color: white;
+  width: 120px;
+  height: 30px;
+  background-color: rgba(243, 28, 132, 0.1);
+  vertical-align: bottom;  
+}
+  
+  /* About.html*/
+h1 {
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+  }
+  
+  @media (max-width: 500px) {
+    .headerImgDiv {
+        display: none;
+      }
+      .headerQuote {
+        text-align: center;
+      }
+      .headerQuoteDiv {
+        width: 100%;
+      }
+      .ctaBtn {
+        display: block;
+        margin: auto;
+      }
+  
+  }
