@@ -2,7 +2,7 @@
 class Quotes {
     constructor(element, content) {
         this.element = element;
-        this.content = content;
+        this.content = content;        
         // this.element.style.animationName = 'fadein';
         // this.element.style.animationDuration = '2s';        
     }
@@ -42,7 +42,8 @@ function setContent() {
 
 }
 
-function replaceContentInContainer() {    
+function replaceContentInContainer() { 
+    kindnessQuote.element.classList.toggle('animateQuote');    
     kindnessQuote.element.innerHTML = kindnessQuote.content;    
     }
 function intervalContent() {    
@@ -51,6 +52,8 @@ function intervalContent() {
 }
 
 // Set the quote to change every 10 seconds
-setInterval(intervalContent, 10000);
+setInterval(intervalContent, 7000);
 
+// kindnessQuote.element.addEventListener('input', function () {        
 
+// })
