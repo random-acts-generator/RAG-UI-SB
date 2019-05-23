@@ -39,11 +39,11 @@ function setContent() {
     if (kindnessQuote.content === undefined || kindnessQuote === "") {
         kindnessQuote.content = 'Sometimes it takes only one act of kindness and caring to change a person’s life';
     }
+
 }
 
 function replaceContentInContainer() {    
-    kindnessQuote.element.innerHTML = kindnessQuote.content;
-    kindnessQuote.textContent = kindnessQuote.content;
+    kindnessQuote.element.innerHTML = kindnessQuote.content;    
     }
 function intervalContent() {    
     setContent();

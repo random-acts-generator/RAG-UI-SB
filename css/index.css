@@ -109,6 +109,7 @@ animation-name: bounceIn;
 color: white;
 width: 120px;
 height: 30px;
+margin-right: 25px;
 background-color: rgba(243, 28, 132, 0.1);
 vertical-align: bottom;
 }
@@ -116,7 +117,10 @@ vertical-align: bottom;
   background-color: black;  
   transform: scale(1.5);
 }
+.buttonDiv {
+  display: flex;
 
+}
 /* About.html*/
 h1 {
   width: 100%;
