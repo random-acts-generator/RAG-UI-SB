@@ -53,7 +53,3 @@ function intervalContent() {
 
 // Set the quote to change every 10 seconds
 setInterval(intervalContent, 7000);
-
-// kindnessQuote.element.addEventListener('input', function () {        
-
-// })
